@@ -117,7 +117,9 @@
     align-items: center;
     list-style: none;
     padding: 0;
-
+}
+.header__navbar-menu li:not(:last-child):hover a {
+    color: var(--primary-color);
 }
 
 .item__link {

@@ -45,6 +45,63 @@
                                             <i class="mr12 fas fa-user"></i> 
                                             <p>Số khách</p>
                                         </div>
+                                        <div class="search-guest__select-number">
+                                            <div class="select-number">
+                                                <div class="select-number__title">
+                                                    <p>Người lớn</p>
+                                                </div>
+                                                <div class="el-input-number">
+                                                    <div class="el-input-number__decrease">
+                                                        <i class="fas fa-minus-circle"></i>
+                                                    </div>
+                                                    <div class="el-input-number__increase">
+                                                        <i class="fas fa-plus-circle"></i>
+                                                    </div>
+                                                    <div class="input-selecter-number">
+                                                        <input  class="el-input__inner" max="9999" min="1" value="1" type="number" step="1" >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="select-number mt18">
+                                                <div class="select-number__title">
+                                                    <p>Trẻ em</p>
+                                                    <p>Tuổi từ 2–12</p>
+                                                </div>
+                                                <div class="el-input-number">
+                                                    <div class="el-input-number__decrease">
+                                                        <i class="fas fa-minus-circle"></i>
+                                                    </div>
+                                                    <div class="el-input-number__increase">
+                                                        <i class="fas fa-plus-circle"></i>
+                                                    </div>
+                                                    <div class="input-selecter-number">
+                                                        <input  class="el-input__inner" max="9999" min="1" value="1" type="number" step="1" >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="select-number mt18">
+                                                <div class="select-number__title">
+                                                    <p>Trẻ sơ sinh</p>
+                                                    <p>Dưới 2 tuổi</p>
+                                                </div>
+                                                <div class="el-input-number">
+                                                    <div class="el-input-number__decrease">
+                                                        <i class="fas fa-minus-circle"></i>
+                                                    </div>
+                                                    <div class="el-input-number__increase">
+                                                        <i class="fas fa-plus-circle"></i>
+                                                    </div>
+                                                    <div class="input-selecter-number">
+                                                        <input  class="el-input__inner" max="9999" min="1" value="1" type="number" step="1" >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="select-number mt30">
+                                                <button class="btn ">Xóa</button>
+                                                <button class="btn btn-primary">Áp dụng</button>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <button class="btn btn-search">
@@ -67,14 +124,44 @@
                                 <li class="header__navbar-item">
                                     <a href="" class="item__link">Đăng nhập</a>
                                 </li>
-                                <li class="header__navbar-item">
-                                    <a href="" class="item__link">
-                                        <div class="headeer__navbar-item-inner">
-                                            <img src="./asset/img/VN_img.svg" alt="Vietnam" class="header__navbarbar-menu-img">
-                                            <span class="header__navbarbar-menu-language">VND</span>
-                                            <i class="header__navbarbar-icon fas fa-sort-down"></i>
-                                        </div>
-                                    </a>
+                                <li class="header__navbar-item  is-relative">
+                                    <div class="header__navbar-item--language">
+                                        <a href="" class="item__link">
+                                            <div class="header__navbar-item-inner">
+                                                <img src="./asset/img/VN_img.svg" alt="Vietnam" class="header__navbarbar-menu-img">
+                                                <span class="header__navbarbar-menu-language">VND</span>
+                                                <i class="header__navbarbar-icon fas fa-sort-down"></i>
+                                            </div>
+                                        </a>
+                                            <div class="language-coins">
+                                                <div class="language-coins__container grid-row">
+                                                    <div class="language__select grid-column-2">
+                                                        <a href="" class="language__select__VN is-checked">
+                                                            <img src="./asset/img/select-langue&coins/vn.svg" alt="">
+                                                            <span>Tiếng Việt</span>
+                                                        </a>
+                                                        <a href="" class="language__select__VN">
+                                                            <img src="./asset/img/select-langue&coins/en.svg" alt="">
+                                                            <span>English</span>
+                                                        </a>
+                                                        <a href="" class="language__select__VN">
+                                                            <img src="./asset/img/select-langue&coins/ko.svg" alt="">
+                                                            <span>Korean</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="coins__select grid-column-2">
+                                                        <a href="" class="coins__select__VN is-checked">
+                                                            <b>VND</b>
+                                                            <span>việt nam đồng</span>
+                                                        </a>
+                                                        <a href="" class="coins__select__VN">
+                                                            <b>USD</b>
+                                                            <span>United States Dollar</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
